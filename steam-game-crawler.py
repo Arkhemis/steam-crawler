@@ -39,7 +39,7 @@ def download_page(url, maxretries, timeout, pause):
 
 
 def getgamepages(timeout, maxretries, pause, out):
-    baseurl = 'http://store.steampowered.com/search/results?sort_by=_ASC&snr=1_7_7_230_7&page='
+    baseurl = 'https://store.steampowered.com/search/?term='
     page = 0
     gameidre = re.compile(r'/(app|sub)/([0-9]+)/')
 
