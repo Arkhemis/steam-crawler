@@ -36,12 +36,5 @@ The last script _steam-reviews-stats.py_ is a sample script that processes the r
   
   * _./data/summary.json_ number of reviews, number of played hours, number of users, number of games.
   
-On March 15, 2018 those last statistics are:
-
-```
-reviews        6614765
-played hours 554702535
-users          2720777
-games            26677
-```
-  
+## Concatenation of all csvs
+To regroup all reviews.csv, run concat.cmd
